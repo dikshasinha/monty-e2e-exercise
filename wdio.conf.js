@@ -1,6 +1,9 @@
 
     require('babel-register')
     require('babel-polyfill')
+    require('npm')
+    require ('pakage.jason')
+
 
     exports.config = {
         // =====================
@@ -14,7 +17,7 @@
         // backend you should define the host address, port, and path here.
         host: '0.0.0.0',
         port: 4444,
-        path: '/wd/hub',
+        path: '/ wd / hub',
         //
         // ==================
         // Specify Test Files
