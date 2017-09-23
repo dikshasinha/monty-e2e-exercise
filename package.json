@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "npm": "5.4.2",
     "babel": "^6.5.2",
     "babel-cli": "^6.24.0",
     "babel-polyfill": "^6.16.0",
