@@ -17,7 +17,7 @@
         // backend you should define the host address, port, and path here.
         host: '0.0.0.0',
         port: 4444,
-        path: '/ wd / hub',
+        path: '/wd/hub',
         //
         // ==================
         // Specify Test Files
@@ -134,13 +134,16 @@
         framework: 'cucumber',
         //
         // Test reporter for stdout.
-        // The only one supported by default is 'dot'
+        // The only one supported by default is 'spec'
         // see also: http://webdriver.io/guide/testrunner/reporters.html
         reporters: ['spec'],
         //
         // If you are using Cucumber you need to specify the location of your step definitions.
         cucumberOpts: {
-            require: ['./features/step_definitions/**/*.js', './test/behaviour/support/**/*.js','./test/behavior/utils/**/*.js','./test/behaviour/pageObjects/**/*.js'], ignoreUndefinitions: false}};        // <string[]> (file/dir) require files before executing features
+            require: ['./features/step_definitions/**/*.js', './test/behaviour/support/**/*.js', './test/behavior/utils/**/*.js', './test/behaviour/pageObjects/**/*.js'], ignoreUndefinitions: false
+        }
+    };
+            // <string[]> (file/dir) require files before executing features
             backtrace: true,   // <boolean> show full backtrace for errors
             compiler: [],       // <string[]> ("extension:module") require files with the given EXTENSION after requiring MODULE (repeatable)
             dryRun: false,      // <boolean> invoke formatters without executing steps
